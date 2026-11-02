@@ -1,0 +1,15 @@
+=== CONFIGURACIÓN DEL SERVIDOR DE IMPRESIÓN Y COLAS EN RED ===
+
+1. Características del Servidor:
+   - Sistema operativo: Windows Desktop (Entorno Local)
+   - Componente habilitado: Servicios de impresión y documentos (Servidor de impresión)
+
+2. Parámetros de la Impresora Compartida:
+   - Nombre de la Impresora: Impresora_Compartida_Servidor
+   - Tipo de Puerto: Puerto TCP/IP Estándar / Local
+   - Controlador utilizado: Microsoft XPS Class Driver / Microsoft IPP Class Driver
+
+3. Políticas de Acceso y Colas:
+   - Estado de compartición: Habilitada en red local
+   - Permisos de impresión: Administradores (Control total), Grupo Usuarios (Imprimir y administrar documentos propios)
+   - Asignación de prioridades: Nivel estándar de cola por orden de llegada (First-In, First-Out).
